@@ -1,0 +1,14 @@
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\bin\Debug\netcoreapp3.1\leetcode.exe
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\bin\Debug\netcoreapp3.1\leetcode.deps.json
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\bin\Debug\netcoreapp3.1\leetcode.runtimeconfig.json
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\bin\Debug\netcoreapp3.1\leetcode.runtimeconfig.dev.json
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\bin\Debug\netcoreapp3.1\leetcode.dll
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\bin\Debug\netcoreapp3.1\leetcode.pdb
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.csproj.AssemblyReference.cache
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.AssemblyInfoInputs.cache
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.AssemblyInfo.cs
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.csproj.CoreCompileInputs.cache
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.dll
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.pdb
+C:\Users\mahar\source\repos\leetcode\leetcode\leetcode\obj\Debug\netcoreapp3.1\leetcode.genruntimeconfig.cache

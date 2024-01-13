@@ -7,10 +7,18 @@ namespace leetcode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Starting Merge Intervals Pattern");
 
             _56_Merge_Intervals mergeIntervals = new _56_Merge_Intervals();
+            _253_Meeting_Rooms_2 meetingRooms2 = new _253_Meeting_Rooms_2();
 
+            Console.WriteLine("Ending Merge Intervals Pattern");
+/*
+            Console.WriteLine("Starting Fast and Slow Pointers");
+
+            Console.WriteLine("Ending Fast and Slow Pointers");
+
+*/
         }
     }
 }

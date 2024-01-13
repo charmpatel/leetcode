@@ -9,7 +9,14 @@ namespace leetcode.LeetCode_Solutions
         public _56_Merge_Intervals()
         {
             int[][] array = new int[3][] { new int[] { 0, 30 }, new int[] { 5, 10 }, new int[] { 15, 20 } };
-            Console.WriteLine(Merge(array)); // TODO: Figure out how to print int[][] array
+            PrintResult(Merge(array)); // TODO: Figure out how to print int[][] array
+        }
+
+        public void PrintResult(Object result)
+        {
+            Console.WriteLine("Starting _56_Merge_Intervals");
+            Console.WriteLine(result);
+            Console.WriteLine("Ending _56_Merge_Intervals");
         }
 
         public int[][] Merge(int[][] intervals)

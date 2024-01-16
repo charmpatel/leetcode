@@ -15,9 +15,46 @@ namespace leetcode.LeetCode_Solutions
                 new int[]{3,4},
                 new int[]{1,3}
             };
-            Console.WriteLine(removeOverlapIntervals(arr));
-        }
+            PrintResult(removeOverlapIntervals(arr));
+            int[][] arr1 =
+            {
+                new int[]{1,2},
+                new int[]{1,2},
+                new int[]{1,2}
+            };
+            PrintResult(removeOverlapIntervals(arr1));
 
+        }
+        static void PrintResult(Object result)
+        {
+            Console.WriteLine("Starting _435_Non_Overlapping_Intervals");
+            Console.WriteLine(result);
+            Console.WriteLine("Ending _435_Non_Overlapping_Intervals");
+        }
+        /*Given an array of intervals intervals where intervals[i] = [starti, endi],
+         * return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping. 
+
+        Example 1:
+
+        Input: intervals = [[1,2],[2,3],[3,4],[1,3]]
+        Output: 1
+        Explanation: [1,3] can be removed and the rest of the intervals are non-overlapping.
+        Example 2:
+
+        Input: intervals = [[1,2],[1,2],[1,2]]
+        Output: 2
+        Explanation: You need to remove two [1,2] to make the rest of the intervals non-overlapping.
+        Example 3:
+
+        Input: intervals = [[1,2],[2,3]]
+        Output: 0
+        Explanation: You don't need to remove any of the intervals since they're already non-overlapping.
+                 * here we have to sort the intervals by start value.
+                 * loop through into intervals and check if first int. last number is grater than secon int. fisrt num.
+                 * then add counter 
+                 * otherwise increse start value.
+                 * at the end return couter value.
+         */
         public static int removeOverlapIntervals (int[][] intervals)
         {
             Array.Sort(intervals, (a, b) => { return a[1] - b[1]; });

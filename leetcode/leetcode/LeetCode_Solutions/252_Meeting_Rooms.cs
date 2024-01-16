@@ -20,8 +20,8 @@ namespace leetcode.LeetCode_Solutions
                 new int[]{7,10},
                 new int[]{2,5}
             };
-            PrintResult(canAttendMeeting(Arr));
-            PrintResult(canAttendMeeting(Arr1));
+            PrintResult(canAttendMeeting(Arr)); //false
+            PrintResult(canAttendMeeting(Arr1));//true
 
         }
         public void PrintResult(Object result)

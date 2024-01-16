@@ -18,7 +18,15 @@ namespace leetcode.LeetCode_Solutions
             Console.WriteLine(result);
             Console.WriteLine("Ending _56_Merge_Intervals");
         }
-
+        /* what if there is no intervals?
+         * if only one interval then return one.
+         * Now, we have to find out how many intervals are overlapping
+         * for that first have to sort given intervals by start value
+         * if first interval's end is greater than second intervals start value than 
+         * create a new interval with max value of first interval end or second's end.
+         * otherwise add interval into result and chsnge start and end pointer values.
+         * at the end return result in to Array.
+        */
         public int[][] Merge(int[][] intervals)
         {
             int n = intervals.Length;

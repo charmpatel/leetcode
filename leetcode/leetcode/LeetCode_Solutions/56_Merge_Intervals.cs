@@ -8,21 +8,21 @@ namespace leetcode.LeetCode_Solutions
     {
         public _56_Merge_Intervals()
         {
-            int[][] array = new int[3][] { new int[] { 0, 30 }, new int[] { 5, 10 }, new int[] { 15, 20 } };
-            PrintResult(Merge(array)); // TODO: Figure out how to print int[][] array
-            for (int n = 0; n < array.Length; n++)
+            int[][] array = new int[3][] { new int[] { 0, 30 }, new int[] { 50, 100 }, new int[] { 15, 20 } };
+            //PrintResult(Merge(array)); // TODO: Figure out how to print int[][] array
+            var result = Merge(array);
+            for (int n = 0; n < result.Length; n++)
             {
 
                 // Print the row number 
                 Console.WriteLine("Row({0}): ", n);
 
-                for (int k = 0; k < array[n].Length; k++)
+                for (int k = 0; k < result[n].Length; k++)
                 {
 
                     // Print the elements in the row 
-                    Console.WriteLine("{0} ", array[n][k]);
+                    Console.WriteLine("{0} ", result[n][k]);
                 }
-                Console.WriteLine();
             }
 
             static void PrintResult(Object result)

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace leetcode.LeetCode_Solutions
+namespace leetcode.LeetCode_Solutions.Merge_Intervals
 {
-    public class _56_Merge_Intervals.Merge_Intervals
+    public class _56_Merge_Intervals
     {
         public _56_Merge_Intervals()
         {

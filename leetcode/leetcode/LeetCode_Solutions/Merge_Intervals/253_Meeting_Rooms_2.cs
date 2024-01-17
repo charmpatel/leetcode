@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace leetcode.LeetCode_Solutions
+namespace leetcode.LeetCode_Solutions.Merge_Intervals
 {
     public class _253_Meeting_Rooms_2
     {

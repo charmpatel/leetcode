@@ -4,7 +4,7 @@ using System.Text;
 
 namespace leetcode.LeetCode_Solutions
 {
-    public class _56_Merge_Intervals
+    public class _56_Merge_Intervals.Merge_Intervals
     {
         public _56_Merge_Intervals()
         {

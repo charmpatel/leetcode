@@ -22,6 +22,7 @@ namespace leetcode
             //_19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
             _83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
             _141_Linked_List_Cycle linkedListCycle = new _141_Linked_List_Cycle();
+            _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
             Console.WriteLine("Ending Fast and Slow Pointers");
 
 

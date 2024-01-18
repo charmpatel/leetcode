@@ -22,12 +22,11 @@ namespace leetcode.LeetCode_Solutions.Fast_SlowPointers
 
         public void PrintResult(ListNode head)
         {
-            ListNode result = head;
-            while (result != null)
+            while (head != null)
             {
-                Console.WriteLine(result.val
+                Console.WriteLine(head.val
                     + " ");
-                result = result.next;
+                head = head.next;
             }
             Console.WriteLine();
         }
@@ -41,8 +40,7 @@ namespace leetcode.LeetCode_Solutions.Fast_SlowPointers
                 {
                     if(current.val == current.next.val)
                     {
-                        ListNode temp = current.next;
-                        current.next = temp.next;
+                        current.next = current.next.next;
                     }
                     else
                     {

@@ -19,7 +19,8 @@ namespace leetcode
             */
             Console.WriteLine("Starting Fast and Slow Pointers");
             //_2_Add_Two_Numbers add_Two_Numbers = new _2_Add_Two_Numbers();
-            _19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
+            //_19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
+            _83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
             Console.WriteLine("Ending Fast and Slow Pointers");
 
 

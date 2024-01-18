@@ -20,9 +20,10 @@ namespace leetcode
             Console.WriteLine("Starting Fast and Slow Pointers");
             //_2_Add_Two_Numbers add_Two_Numbers = new _2_Add_Two_Numbers();
             //_19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
-            _83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
+            /*_83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
             _141_Linked_List_Cycle linkedListCycle = new _141_Linked_List_Cycle();
-            _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
+            _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();*/
+            _203_Remove_Linked_List_Elements RemoveElement = new _203_Remove_Linked_List_Elements();
             Console.WriteLine("Ending Fast and Slow Pointers");
 
 

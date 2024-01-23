@@ -4,6 +4,16 @@ using System.Text;
 
 namespace leetcode.LeetCode_Solutions.Utility
 {
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int val = 0, ListNode next = null)
+        {
+            this.val = val;
+            this.next = next;
+        }
+    }
     public class Utility
     {
         public Utility()
@@ -24,5 +34,6 @@ namespace leetcode.LeetCode_Solutions.Utility
                 this.right = right;
             }
         }
+
     }
 }

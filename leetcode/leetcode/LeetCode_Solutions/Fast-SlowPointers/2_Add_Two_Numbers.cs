@@ -1,19 +1,11 @@
-﻿using System;
+﻿using leetcode.LeetCode_Solutions.Utility;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace leetcode.LeetCode_Solutions.Fast_SlowPointers
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+   
 
     public class _2_Add_Two_Numbers
     {

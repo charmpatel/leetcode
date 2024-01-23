@@ -1,19 +1,11 @@
-﻿using System;
+﻿using leetcode.LeetCode_Solutions.Utility;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace leetcode.LeetCode_Solutions.Fast_SlowPointers
 {
-    public class Listnode
-    {
-        int val;
-        Listnode next;
-        public Listnode(int val = 0, Listnode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+    
     public class _19_Remove_nth_Node
     {
         public _19_Remove_nth_Node()

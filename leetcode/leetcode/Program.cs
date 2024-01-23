@@ -33,6 +33,8 @@ namespace leetcode
             _98_Validate_Binary_Search_Tree isValidBST = new _98_Validate_Binary_Search_Tree();
             _100_Same_Tree isTreePalindrome = new _100_Same_Tree();
             _104_Maximum_Depth_of_Binary_Tree maxDepthBT = new _104_Maximum_Depth_of_Binary_Tree();
+            _112_Path_Sum isPathSum = new _112_Path_Sum();
+            _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();
             Console.WriteLine("Ending Tree Dfs");
         }
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using leetcode.LeetCode_Solutions.Utility;
 using System.Text;
+using static leetcode.LeetCode_Solutions.Utility.Utility;
 
 namespace leetcode.LeetCode_Solutions.Tree_Dfs
 {
@@ -21,19 +22,7 @@ namespace leetcode.LeetCode_Solutions.Tree_Dfs
 
             Console.WriteLine(isTreeSame(p, q));
         }
-        public class TreeNode
-        {
-            public int val;
-            public TreeNode left;
-            public TreeNode right;
-
-            public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
-            {
-                this.val = val;
-                this.left = left;
-                this.right = right;
-            }
-        }
+        
         public bool isTreeSame(TreeNode p, TreeNode q)
         {
             if(p == null && q == null)

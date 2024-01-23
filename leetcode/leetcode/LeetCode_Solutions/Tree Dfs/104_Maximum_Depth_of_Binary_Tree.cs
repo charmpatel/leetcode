@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static leetcode.LeetCode_Solutions.Utility.Utility;
 
 namespace leetcode.LeetCode_Solutions.Tree_Dfs
 {
@@ -19,20 +20,6 @@ namespace leetcode.LeetCode_Solutions.Tree_Dfs
 
         }
 
-        public class TreeNode
-        {
-            public int val;
-            public TreeNode right;
-            public TreeNode left;
-
-            public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
-            {
-                this.val = val;
-                this.left = left;
-                this.right = right;
-            }
-
-        }
         public int MaxDepth(TreeNode root)
         {
             return DFS(root);

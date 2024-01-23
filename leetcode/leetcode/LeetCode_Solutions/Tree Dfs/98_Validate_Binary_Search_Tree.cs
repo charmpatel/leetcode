@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using leetcode.LeetCode_Solutions.Utility;
 using System.Text;
-
+using static leetcode.LeetCode_Solutions.Utility.Utility;
 
 namespace leetcode.LeetCode_Solutions.Tree_Dfs
 {
@@ -19,7 +18,7 @@ namespace leetcode.LeetCode_Solutions.Tree_Dfs
 
             Console.WriteLine(isValidBinaryTree(root));
         }
-        public class TreeNode
+       /* public class TreeNode
         {
             public int val;
             public TreeNode left;
@@ -31,7 +30,7 @@ namespace leetcode.LeetCode_Solutions.Tree_Dfs
                 this.left = left;
                 this.right = right;
             }
-        }
+        }*/
         public bool isValidBinaryTree(TreeNode root)
         {
             return isValidBinaryTree(root, null, null);

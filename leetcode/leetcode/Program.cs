@@ -3,7 +3,9 @@ using leetcode.LeetCode_Solutions.Merge_Intervals;
 using leetcode.LeetCode_Solutions.Fast_SlowPointers;
 using leetcode.LeetCode_Solutions.Tree_Dfs;
 using leetcode.LeetCode_Solutions.Utility;
+using leetcode.LeetCode_Solutions.Arrays;
 using System;
+using System.Collections.Generic;
 
 namespace leetcode
 {
@@ -36,6 +38,12 @@ namespace leetcode
             _112_Path_Sum isPathSum = new _112_Path_Sum();
             _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();*/
             Console.WriteLine("Ending Tree Dfs");
+
+            Console.WriteLine("Starting Arrays");
+            _54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
+            Console.WriteLine("Ending Arrays");
+
+          
         }
     }
 }

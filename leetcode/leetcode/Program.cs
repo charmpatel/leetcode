@@ -44,8 +44,10 @@ namespace leetcode
             _1_Two_Sum twoSum = new _1_Two_Sum();
             _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
             _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
-            _268_Missing_Number missingNumber = new _268_Missing_Number();*/
-            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
+            _268_Missing_Number missingNumber = new _268_Missing_Number();
+            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();*/
+
+            _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             Console.WriteLine("Ending Arrays");
 
           

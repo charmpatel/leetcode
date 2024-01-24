@@ -10,7 +10,7 @@ namespace leetcode.LeetCode_Solutions.Arrays
         {
             int target = 9;
             int[] nums = new int[] { 11,12,14,15,16,18,100,2, 7 };
-            int[] res = (twoSum(nums, target));
+            int[] res = twoSum(nums, target);
             for(int i = 0; i<res.Length; i++)
             {
                 Console.WriteLine(res[i]);

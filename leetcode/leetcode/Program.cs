@@ -22,13 +22,13 @@ namespace leetcode
             Console.WriteLine("Ending Merge Intervals Pattern");
             
             Console.WriteLine("Starting Fast and Slow Pointers");
-            _2_Add_Two_Numbers add_Two_Numbers = new _2_Add_Two_Numbers();
+           /* _2_Add_Two_Numbers add_Two_Numbers = new _2_Add_Two_Numbers();
             _19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
             _83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
             _141_Linked_List_Cycle linkedListCycle = new _141_Linked_List_Cycle();
             _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
             _203_Remove_Linked_List_Elements RemoveElement = new _203_Remove_Linked_List_Elements();
-            _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();
+            _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();*/
             Console.WriteLine("Ending Fast and Slow Pointers");
 
             Console.WriteLine("Starting Tree Dfs");
@@ -43,9 +43,9 @@ namespace leetcode
             /*_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
             _1_Two_Sum twoSum = new _1_Two_Sum();
             _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
-            _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();*/
-            _268_Missing_Number missingNumber = new _268_Missing_Number();
-
+            _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
+            _268_Missing_Number missingNumber = new _268_Missing_Number();*/
+            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
             Console.WriteLine("Ending Arrays");
 
           

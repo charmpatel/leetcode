@@ -40,7 +40,8 @@ namespace leetcode
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
-            _54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
+            //_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
+            _1_Two_Sum twoSum = new _1_Two_Sum();
             Console.WriteLine("Ending Arrays");
 
           

@@ -52,6 +52,7 @@ namespace leetcode
 
             Console.WriteLine("Starting Two_Pointers");
             _15_3_Sum ThreeSum = new _15_3_Sum();
+            _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
             Console.WriteLine("Ending Two Pointers");
           
         }

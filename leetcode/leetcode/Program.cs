@@ -2,6 +2,7 @@
 using leetcode.LeetCode_Solutions.Merge_Intervals;
 using leetcode.LeetCode_Solutions.Fast_SlowPointers;
 using leetcode.LeetCode_Solutions.Tree_Dfs;
+using leetcode.LeetCode_Solutions.Two_Pointers;
 using leetcode.LeetCode_Solutions.Utility;
 using leetcode.LeetCode_Solutions.Arrays;
 using System;
@@ -46,10 +47,12 @@ namespace leetcode
             _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
             _268_Missing_Number missingNumber = new _268_Missing_Number();
             _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();*/
-
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             Console.WriteLine("Ending Arrays");
 
+            Console.WriteLine("Starting Two_Pointers");
+            _15_3_Sum ThreeSum = new _15_3_Sum();
+            Console.WriteLine("Ending Two Pointers");
           
         }
     }

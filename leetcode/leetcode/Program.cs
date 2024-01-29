@@ -48,14 +48,15 @@ namespace leetcode
             _268_Missing_Number missingNumber = new _268_Missing_Number();
             _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
-            _49_Group_Anagram grpAnagram = new _49_Group_Anagram();*/
+            _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
-            _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
+            _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();*/
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");
-           /* _15_3_Sum ThreeSum = new _15_3_Sum();
-            _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();*/
+            /* _15_3_Sum ThreeSum = new _15_3_Sum();
+             _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();*/
+            //_283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
             Console.WriteLine("Ending Two Pointers");
           
         }

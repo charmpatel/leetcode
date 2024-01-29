@@ -51,6 +51,7 @@ namespace leetcode
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
             _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();*/
+            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");

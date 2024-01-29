@@ -51,14 +51,14 @@ namespace leetcode
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
             _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();*/
-            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");
             /* _15_3_Sum ThreeSum = new _15_3_Sum();
-             _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();*/
-            //_283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
-            _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();
+             _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
+            _283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
+            _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();*/
+            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             Console.WriteLine("Ending Two Pointers");
           
         }

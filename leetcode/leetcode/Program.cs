@@ -5,6 +5,7 @@ using leetcode.LeetCode_Solutions.Tree_Dfs;
 using leetcode.LeetCode_Solutions.Two_Pointers;
 using leetcode.LeetCode_Solutions.Utility;
 using leetcode.LeetCode_Solutions.Arrays_Hashing;
+using leetcode.LeetCode_Solutions.Sliding_Window;
 using System;
 using System.Collections.Generic;
 
@@ -39,6 +40,7 @@ namespace leetcode
             _104_Maximum_Depth_of_Binary_Tree maxDepthBT = new _104_Maximum_Depth_of_Binary_Tree();
             _112_Path_Sum isPathSum = new _112_Path_Sum();
             _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();*/
+            _124_Binary_Tree_Maximum_Path_Sum maxPathSum = new _124_Binary_Tree_Maximum_Path_Sum();
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
@@ -56,13 +58,17 @@ namespace leetcode
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");
-             _15_3_Sum ThreeSum = new _15_3_Sum();
+             /*_15_3_Sum ThreeSum = new _15_3_Sum();
              _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
             _283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
             _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();
             _234_Palindrome_Linked_List palindrome_Linked_List = new _234_Palindrome_Linked_List();
-            _148_Sort_List sortList = new _148_Sort_List();
+            _148_Sort_List sortList = new _148_Sort_List();*/
             Console.WriteLine("Ending Two Pointers");
+
+            Console.WriteLine("Starting Sliding Windows");
+            _3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
+            Console.WriteLine("Ending Sliding Windows");
           
         }
     }

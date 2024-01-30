@@ -9,12 +9,15 @@ namespace leetcode.LeetCode_Solutions.Two_Pointers
         public _283_Move_Zeroes()
         {
             int[] num1 = new int[] { 0, 1, 0, 3, 12 };
-            //var res = moveZeroes(num1);
-          /* for(int i = 0; i< res.Length;i++)
+           // num1 = 
+           moveZeroes(num1);
+
+          
+          for(int i = 0; i< num1.Length;i++)
             {
-                Console.Write("{0} ", res[i]);
+                Console.Write("{0} ", num1[i]);
             }
-            Console.WriteLine(" ");*/
+            Console.WriteLine(" ");
         }
         /*Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
         Note that you must do this in-place without making a copy of the array.

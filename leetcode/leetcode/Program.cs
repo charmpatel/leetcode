@@ -23,13 +23,14 @@ namespace leetcode
             Console.WriteLine("Ending Merge Intervals Pattern");
             
             Console.WriteLine("Starting Fast and Slow Pointers");
-           /* _2_Add_Two_Numbers add_Two_Numbers = new _2_Add_Two_Numbers();
-            _19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
-            _83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
-            _141_Linked_List_Cycle linkedListCycle = new _141_Linked_List_Cycle();
-            _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
-            _203_Remove_Linked_List_Elements RemoveElement = new _203_Remove_Linked_List_Elements();
-            _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();*/
+            /* _2_Add_Two_Numbers add_Two_Numbers = new _2_Add_Two_Numbers();
+             _19_Remove_nth_Node removeNthFromEnd = new _19_Remove_nth_Node();
+             _83_Remove_Duplicates_From_SortedList deleteDuplicates = new _83_Remove_Duplicates_From_SortedList();
+             _141_Linked_List_Cycle linkedListCycle = new _141_Linked_List_Cycle();
+             _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
+             _203_Remove_Linked_List_Elements RemoveElement = new _203_Remove_Linked_List_Elements();
+             _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();*/
+            _143_Reorder_List reorderList = new _143_Reorder_List();
             Console.WriteLine("Ending Fast and Slow Pointers");
 
             Console.WriteLine("Starting Tree Dfs");
@@ -50,15 +51,17 @@ namespace leetcode
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
-            _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();*/
+            _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
+            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();*/
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");
-            /* _15_3_Sum ThreeSum = new _15_3_Sum();
+             _15_3_Sum ThreeSum = new _15_3_Sum();
              _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
             _283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
-            _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();*/
-            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
+            _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();
+            _234_Palindrome_Linked_List palindrome_Linked_List = new _234_Palindrome_Linked_List();
+            _148_Sort_List sortList = new _148_Sort_List();
             Console.WriteLine("Ending Two Pointers");
           
         }

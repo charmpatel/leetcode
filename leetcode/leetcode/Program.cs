@@ -68,6 +68,9 @@ namespace leetcode
 
             Console.WriteLine("Starting Sliding Windows");
             _3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
+            _155_Min_Stack getMinStackVal = new _155_Min_Stack();
+            _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
+            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
             Console.WriteLine("Ending Sliding Windows");
           
         }

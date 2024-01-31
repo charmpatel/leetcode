@@ -45,7 +45,7 @@ namespace leetcode
 
             Console.WriteLine("Starting Arrays");
             /*_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
-            _1_Two_Sum twoSum = new _1_Two_Sum();
+            _1_Two_Sum twoSum = new _1_Two_Sum();            
             _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
             _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
             _268_Missing_Number missingNumber = new _268_Missing_Number();
@@ -54,18 +54,20 @@ namespace leetcode
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
             _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
-            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();*/
+            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
-            _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();
+            _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();*/
+            
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");
-             /*_15_3_Sum ThreeSum = new _15_3_Sum();
-             _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
-            _283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
-            _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();
-            _234_Palindrome_Linked_List palindrome_Linked_List = new _234_Palindrome_Linked_List();
-            _148_Sort_List sortList = new _148_Sort_List();*/
+            /*_15_3_Sum ThreeSum = new _15_3_Sum();
+            _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
+           _283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
+           _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();
+           _234_Palindrome_Linked_List palindrome_Linked_List = new _234_Palindrome_Linked_List();
+           _148_Sort_List sortList = new _148_Sort_List();
+            _1_Two_Sum_Sorted_Array twoSumSortedArray = new _1_Two_Sum_Sorted_Array();*/
             Console.WriteLine("Ending Two Pointers");
 
             Console.WriteLine("Starting Sliding Windows");

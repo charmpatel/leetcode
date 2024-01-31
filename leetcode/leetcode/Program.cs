@@ -56,6 +56,7 @@ namespace leetcode
             _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
             _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();*/
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
+            _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");

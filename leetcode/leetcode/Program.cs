@@ -30,8 +30,8 @@ namespace leetcode
              _141_Linked_List_Cycle linkedListCycle = new _141_Linked_List_Cycle();
              _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
              _203_Remove_Linked_List_Elements RemoveElement = new _203_Remove_Linked_List_Elements();
-             _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();*/
-            _143_Reorder_List reorderList = new _143_Reorder_List();
+             _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();
+            _143_Reorder_List reorderList = new _143_Reorder_List();*/
             Console.WriteLine("Ending Fast and Slow Pointers");
 
             Console.WriteLine("Starting Tree Dfs");
@@ -39,8 +39,8 @@ namespace leetcode
             _100_Same_Tree isTreePalindrome = new _100_Same_Tree();
             _104_Maximum_Depth_of_Binary_Tree maxDepthBT = new _104_Maximum_Depth_of_Binary_Tree();
             _112_Path_Sum isPathSum = new _112_Path_Sum();
-            _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();*/
-            _124_Binary_Tree_Maximum_Path_Sum maxPathSum = new _124_Binary_Tree_Maximum_Path_Sum();
+            _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();
+            _124_Binary_Tree_Maximum_Path_Sum maxPathSum = new _124_Binary_Tree_Maximum_Path_Sum();*/
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
@@ -55,6 +55,7 @@ namespace leetcode
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
             _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
             _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();*/
+            _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
             Console.WriteLine("Ending Arrays");
 
             Console.WriteLine("Starting Two_Pointers");
@@ -67,10 +68,10 @@ namespace leetcode
             Console.WriteLine("Ending Two Pointers");
 
             Console.WriteLine("Starting Sliding Windows");
-            _3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
+            /*_3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
             _155_Min_Stack getMinStackVal = new _155_Min_Stack();
             _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
-            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
+            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();*/
             Console.WriteLine("Ending Sliding Windows");
           
         }

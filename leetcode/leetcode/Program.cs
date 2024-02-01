@@ -71,10 +71,18 @@ namespace leetcode
             Console.WriteLine("Ending Two Pointers");
 
             Console.WriteLine("Starting Sliding Windows");
-            /*_3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
+            _3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
             _155_Min_Stack getMinStackVal = new _155_Min_Stack();
+            getMinStackVal.Push(-2);
+            getMinStackVal.Push(0);
+            getMinStackVal.Push(-3);
+            Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -3
+            getMinStackVal.pop();
+            getMinStackVal.top();    // return 0
+            Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -2
+
             _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
-            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();*/
+            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
             Console.WriteLine("Ending Sliding Windows");
           
         }

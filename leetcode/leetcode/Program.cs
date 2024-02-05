@@ -91,6 +91,7 @@ namespace leetcode
 
             Console.WriteLine("Starting Binary Search");
             _704_Binary_Search binarySearchAlgo = new _704_Binary_Search();
+            _153_Find_Minimum_In_Rotated_Sorted_Array minRotatedSortedArray = new _153_Find_Minimum_In_Rotated_Sorted_Array();
             Console.WriteLine("Ending Binary Search");
           
         }

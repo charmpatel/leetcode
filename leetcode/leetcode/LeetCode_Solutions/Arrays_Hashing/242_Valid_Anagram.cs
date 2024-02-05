@@ -1,4 +1,16 @@
-﻿using System;
+﻿/* 242 - Valid Anagram.
+   Topic - String, Hash Table, Sorting.
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+Example 1:
+Input: s = "anagram", t = "nagaram"
+Output: true
+Example 2:
+Input: s = "rat", t = "car"
+Output: false
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,17 +27,16 @@ namespace leetcode.LeetCode_Solutions.Arrays_Hashing
             string t1 = "cat";
             Console.WriteLine(isValidAnagram(s1, t1));
         }
-       /* Given two strings s and t, return true if t is an anagram of s, and false otherwise.
-        An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
-
-        Example 1:
-
-        Input: s = "anagram", t = "nagaram"
-        Output: true
-        Example 2:
-
-        Input: s = "rat", t = "car"
-        Output: false*/
+       /* Seudo Code-
+        * check s of Length is not equal to t of Length then return false.
+            create a dictionary of char and int.
+            first loop through in String s.
+            if dict contains current char then add val of it.
+            otherwise add char = 1
+            loop through in string t and check if current char not in dict then return false
+            otherwise decrease the val of dict of char
+            if char val == 0 then remove that char from dict
+            at last check if dict.Count == 0 return true.*/
 
        public bool isValidAnagram(string s, string t)
         {

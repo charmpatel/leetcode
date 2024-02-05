@@ -93,6 +93,7 @@ namespace leetcode
             _704_Binary_Search binarySearchAlgo = new _704_Binary_Search();
             _153_Find_Minimum_In_Rotated_Sorted_Array minRotatedSortedArray = new _153_Find_Minimum_In_Rotated_Sorted_Array();
             _74_Search_A_2D_Matrix search2DMatrix = new _74_Search_A_2D_Matrix();
+            _33_Search_In_Rotated_Sorted_Array searchInRotatedSortedArray = new _33_Search_In_Rotated_Sorted_Array();
             Console.WriteLine("Ending Binary Search");
           
         }

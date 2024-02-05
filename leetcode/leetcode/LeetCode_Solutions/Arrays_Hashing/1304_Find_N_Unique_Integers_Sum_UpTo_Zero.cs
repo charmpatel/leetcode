@@ -34,6 +34,14 @@ namespace leetcode.LeetCode_Solutions.Arrays_Hashing
             Console.WriteLine("");
 
         }
+
+        /*Seudo code-
+            create a list to return it.
+            loop through in n to create a array. with n/2
+            add i and -i 
+            if n %2 !=0 then add 0.(if num is odd then add 0).
+            List convert it in array and return it.
+*/
         public int[] intSumUptoZero(int n)
         {
             var list = new List<int>();

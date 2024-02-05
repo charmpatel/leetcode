@@ -9,6 +9,7 @@ using leetcode.LeetCode_Solutions.Sliding_Window;
 using System;
 using System.Collections.Generic;
 using leetcode.LeetCode_Solutions.Arrays;
+using leetcode.LeetCode_Solutions.Binary_Search;
 
 namespace leetcode
 {
@@ -32,8 +33,8 @@ namespace leetcode
             _142_LinkedList_cycle_2 detectCycle = new _142_LinkedList_cycle_2();
             _203_Remove_Linked_List_Elements RemoveElement = new _203_Remove_Linked_List_Elements();
             _876_Middle_Of_The_LinkedList subLinkedList = new _876_Middle_Of_The_LinkedList();
-            _143_Reorder_List reorderList = new _143_Reorder_List();*/
-            _21_Merge_Two_Sorted_List megetwolists = new _21_Merge_Two_Sorted_List();
+            _143_Reorder_List reorderList = new _143_Reorder_List();
+            _21_Merge_Two_Sorted_List megetwolists = new _21_Merge_Two_Sorted_List();*/
             Console.WriteLine("Ending Fast and Slow Pointers");
 
             Console.WriteLine("Starting Tree Dfs");
@@ -84,9 +85,13 @@ namespace leetcode
             Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -2
 
             _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
-            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();*/
-            _680_Valid_Palindrome_2 isValidPalindrome2 = new _680_Valid_Palindrome_2();
+            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
+            _680_Valid_Palindrome_2 isValidPalindrome2 = new _680_Valid_Palindrome_2();*/
             Console.WriteLine("Ending Sliding Windows");
+
+            Console.WriteLine("Starting Binary Search");
+            _704_Binary_Search binarySearchAlgo = new _704_Binary_Search();
+            Console.WriteLine("Ending Binary Search");
           
         }
     }

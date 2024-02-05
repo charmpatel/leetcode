@@ -1,4 +1,18 @@
-﻿using System;
+﻿/* 266 -Palindrome Permutation
+   Topic - Hash Table, Bit Manipulation, String.
+Given a string s, return true if a permutation of the string could form a palindrome and false otherwise.
+Example 1:
+Input: s = "code"
+Output: false
+Example 2:
+Input: s = "aab"
+Output: true
+Example 3:
+Input: s = "carerac"
+Output: true
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,16 +29,7 @@ namespace leetcode.LeetCode_Solutions.Arrays_Hashing
             Console.WriteLine(palindromePermutation(s1)); //true
             Console.WriteLine(palindromePermutation(s2)); //true
         }
-        /*Given a string s, return true if a permutation of the string could form a palindrome and false otherwise.
-        Example 1:
-        Input: s = "code"
-        Output: false
-        Example 2:
-        Input: s = "aab"
-        Output: true
-        Example 3:
-        Input: s = "carerac"
-        Output: true*/
+        
 
         public bool palindromePermutation(string s)
         {

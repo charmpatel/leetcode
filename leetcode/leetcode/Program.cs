@@ -47,9 +47,9 @@ namespace leetcode
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
-            /*_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
-            _1_Two_Sum twoSum = new _1_Two_Sum();
-            _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
+            //_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
+            //_1_Two_Sum twoSum = new _1_Two_Sum();
+            /*_359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
             _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
             _268_Missing_Number missingNumber = new _268_Missing_Number();
             _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
@@ -60,6 +60,7 @@ namespace leetcode
             _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
             _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();*/
+            _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
 
             Console.WriteLine("Ending Arrays");
 
@@ -90,10 +91,10 @@ namespace leetcode
             Console.WriteLine("Ending Sliding Windows");
 
             Console.WriteLine("Starting Binary Search");
-            _704_Binary_Search binarySearchAlgo = new _704_Binary_Search();
+            /*_704_Binary_Search binarySearchAlgo = new _704_Binary_Search();
             _153_Find_Minimum_In_Rotated_Sorted_Array minRotatedSortedArray = new _153_Find_Minimum_In_Rotated_Sorted_Array();
             _74_Search_A_2D_Matrix search2DMatrix = new _74_Search_A_2D_Matrix();
-            _33_Search_In_Rotated_Sorted_Array searchInRotatedSortedArray = new _33_Search_In_Rotated_Sorted_Array();
+            _33_Search_In_Rotated_Sorted_Array searchInRotatedSortedArray = new _33_Search_In_Rotated_Sorted_Array();*/
             Console.WriteLine("Ending Binary Search");
           
         }

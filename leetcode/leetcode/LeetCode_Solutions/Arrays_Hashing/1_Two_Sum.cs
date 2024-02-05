@@ -26,7 +26,7 @@ namespace leetcode.LeetCode_Solutions.Arrays
     {
         public _1_Two_Sum()
         {
-            int target = 9;
+            int target = 19;
             int[] nums = new int[] { 11,12,14,15,16,18,100,2, 7 };
             int[] res = twoSum(nums, target);
             for(int i = 0; i<res.Length; i++)
@@ -35,6 +35,16 @@ namespace leetcode.LeetCode_Solutions.Arrays
             }
             
         }
+
+       /* Seudo Code:
+            first use Dictionary to track the value and it's index.
+            create dict with both para int.
+            loop through in nums array. and check target - currunt num  is equals to new int.
+            check if new int in dict then return boths indexes.
+            if not in Dictionary then add curr int in Dictionary.
+            if you don't found num return [0].
+*/
+
          public int[] twoSum(int[] nums, int target)
         {
             Dictionary<int, int> dict = new Dictionary<int, int>();

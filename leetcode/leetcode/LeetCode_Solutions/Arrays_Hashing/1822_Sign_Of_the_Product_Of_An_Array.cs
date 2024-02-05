@@ -37,6 +37,11 @@ namespace leetcode.LeetCode_Solutions.Arrays_Hashing
             Console.WriteLine("Sign of Product {0}", signOfProduct(num1));
             Console.WriteLine("Sign of Product {0}", signOfProduct(num2));
         }
+        /*Seudo code-
+            if any num 0 in nums then return 0
+            loop through in nums and count negative nums.
+            if count % 2 == 0 then return 1 etle -1.*/
+
         public int signOfProduct(int[] nums)
         {
             int count = 0;

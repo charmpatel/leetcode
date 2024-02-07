@@ -102,6 +102,7 @@ namespace leetcode
             //_703_KTh_Largest_Element_In_A_Stream KthLargestEleInStream = new _703_KTh_Largest_Element_In_A_Stream();
             _215_KTh_Largest_Element_In_An_Array findKthEleInArray = new _215_KTh_Largest_Element_In_An_Array();
             _1046_Last_Stone_Weight lastStoneWeight = new _1046_Last_Stone_Weight();
+            _973_K_Closest_Points_To_Origin KClosestPointsToOrigin = new _973_K_Closest_Points_To_Origin();
             Console.WriteLine("Ending Priority Queue");
         }
     }

@@ -109,6 +109,7 @@ namespace leetcode
             Console.WriteLine("Starting Dynamic Programming");
             _198_House_Robber houseRobber = new _198_House_Robber();
             _213_House_Robber_2 houseRobber2 = new _213_House_Robber_2();
+            _70_Climbing_Stairs climbingStairs = new _70_Climbing_Stairs();
             Console.WriteLine("Ending Dynamic Programming");
         }
     }

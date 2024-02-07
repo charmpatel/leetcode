@@ -6,6 +6,7 @@ using leetcode.LeetCode_Solutions.Two_Pointers;
 using leetcode.LeetCode_Solutions.Utility;
 using leetcode.LeetCode_Solutions.Arrays_Hashing;
 using leetcode.LeetCode_Solutions.Sliding_Window;
+using leetcode.LeetCode_Solutions.Heap_Priority_Queue_;
 using System;
 using System.Collections.Generic;
 using leetcode.LeetCode_Solutions.Arrays;
@@ -49,10 +50,10 @@ namespace leetcode
             Console.WriteLine("Starting Arrays");
             //_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
             //_1_Two_Sum twoSum = new _1_Two_Sum();
-            /*_359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
-            _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
+            //_359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
+            //_1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
             _268_Missing_Number missingNumber = new _268_Missing_Number();
-            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
+            /*_287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
@@ -60,7 +61,7 @@ namespace leetcode
             _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
             _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();*/
-            _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
+            //_217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
 
             Console.WriteLine("Ending Arrays");
 
@@ -96,7 +97,10 @@ namespace leetcode
             _74_Search_A_2D_Matrix search2DMatrix = new _74_Search_A_2D_Matrix();
             _33_Search_In_Rotated_Sorted_Array searchInRotatedSortedArray = new _33_Search_In_Rotated_Sorted_Array();*/
             Console.WriteLine("Ending Binary Search");
-          
+
+            Console.WriteLine("Starting Priority Queue");
+            //_703_KTh_Largest_Element_In_A_Stream KthLargestEleInStream = new _703_KTh_Largest_Element_In_A_Stream();
+            Console.WriteLine("Ending Priority Queue");
         }
     }
 }

@@ -20,7 +20,7 @@ Explanation: The answer[[-2,4],[3,3]] would also be accepted.
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+/*
 namespace leetcode.LeetCode_Solutions.Heap_Priority_Queue_
 {
     public class _973_K_Closest_Points_To_Origin
@@ -54,4 +54,4 @@ namespace leetcode.LeetCode_Solutions.Heap_Priority_Queue_
             return Math.Sqrt(Math.Pow(point[0], 2) + Math.Pow(point[1], 2));
         }
     }
-}
+}*/

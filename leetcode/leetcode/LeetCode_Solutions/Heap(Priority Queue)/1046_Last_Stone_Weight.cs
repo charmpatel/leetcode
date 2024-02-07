@@ -22,7 +22,7 @@ Output: 1
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+/*
 namespace leetcode.LeetCode_Solutions.Heap_Priority_Queue_
 {
     public class _1046_Last_Stone_Weight
@@ -46,4 +46,4 @@ namespace leetcode.LeetCode_Solutions.Heap_Priority_Queue_
             return (pq.Count == 0) ? 0 : pq.Peek();
         }
     }
-}
+}*/

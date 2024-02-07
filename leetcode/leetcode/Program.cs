@@ -6,11 +6,12 @@ using leetcode.LeetCode_Solutions.Two_Pointers;
 using leetcode.LeetCode_Solutions.Utility;
 using leetcode.LeetCode_Solutions.Arrays_Hashing;
 using leetcode.LeetCode_Solutions.Sliding_Window;
-using leetcode.LeetCode_Solutions.Heap_Priority_Queue_;
+//using leetcode.LeetCode_Solutions.Heap_Priority_Queue_;
 using System;
 using System.Collections.Generic;
 using leetcode.LeetCode_Solutions.Arrays;
 using leetcode.LeetCode_Solutions.Binary_Search;
+using leetcode.LeetCode_Solutions.Dynamic_Programming;
 
 namespace leetcode
 {
@@ -52,7 +53,7 @@ namespace leetcode
             //_1_Two_Sum twoSum = new _1_Two_Sum();
             //_359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
             //_1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
-            _268_Missing_Number missingNumber = new _268_Missing_Number();
+            //_268_Missing_Number missingNumber = new _268_Missing_Number();
             /*_287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
@@ -99,11 +100,15 @@ namespace leetcode
             Console.WriteLine("Ending Binary Search");
 
             Console.WriteLine("Starting Priority Queue");
-            //_703_KTh_Largest_Element_In_A_Stream KthLargestEleInStream = new _703_KTh_Largest_Element_In_A_Stream();
+            /*_703_KTh_Largest_Element_In_A_Stream KthLargestEleInStream = new _703_KTh_Largest_Element_In_A_Stream();
             _215_KTh_Largest_Element_In_An_Array findKthEleInArray = new _215_KTh_Largest_Element_In_An_Array();
             _1046_Last_Stone_Weight lastStoneWeight = new _1046_Last_Stone_Weight();
-            _973_K_Closest_Points_To_Origin KClosestPointsToOrigin = new _973_K_Closest_Points_To_Origin();
+            _973_K_Closest_Points_To_Origin KClosestPointsToOrigin = new _973_K_Closest_Points_To_Origin();*/
             Console.WriteLine("Ending Priority Queue");
+
+            Console.WriteLine("Starting Dynamic Programming");
+            _198_House_Robber houseRobber = new _198_House_Robber();
+            Console.WriteLine("Ending Dynamic Programming");
         }
     }
 }

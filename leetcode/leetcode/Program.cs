@@ -100,6 +100,7 @@ namespace leetcode
 
             Console.WriteLine("Starting Priority Queue");
             //_703_KTh_Largest_Element_In_A_Stream KthLargestEleInStream = new _703_KTh_Largest_Element_In_A_Stream();
+            _215_KTh_Largest_Element_In_An_Array findKthEleInArray = new _215_KTh_Largest_Element_In_An_Array();
             Console.WriteLine("Ending Priority Queue");
         }
     }

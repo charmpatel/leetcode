@@ -111,6 +111,7 @@ namespace leetcode
             _213_House_Robber_2 houseRobber2 = new _213_House_Robber_2();
             _70_Climbing_Stairs climbingStairs = new _70_Climbing_Stairs();
             _746_Min_Cost_Climbing_Stairs minCostClimbingStairs = new _746_Min_Cost_Climbing_Stairs();
+            _300_Longest_Increasing_Subsequence LongestIncreasingSubsequence = new _300_Longest_Increasing_Subsequence();
             Console.WriteLine("Ending Dynamic Programming");
         }
     }

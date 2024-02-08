@@ -65,6 +65,7 @@ namespace leetcode
             _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
             _202_Happy_Number isHappyNum = new _202_Happy_Number();*/
             _66_Plus_One plusOne = new _66_Plus_One();
+            _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();
 
             Console.WriteLine("Ending Arrays");
 

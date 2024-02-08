@@ -33,17 +33,24 @@ namespace leetcode.LeetCode_Solutions.Dynamic_Programming
         public _746_Min_Cost_Climbing_Stairs()
         {
             int[] cost = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
-            // dp =                { 0 , 1 ,  ,  ,  ,    ,  ,  ,    ,  , }
+            int[] cost1 = new int[] { 10,15,20 };
             Console.WriteLine("Min Cost Climbing Stairs- {0}", minCostClimbingStairs(cost));
+            Console.WriteLine("Min Cost Climbing Stairs- {0}", minCostClimbingStairs(cost1));
         }
         public int minCostClimbingStairs(int[] cost)
         {
-            int[] dp = new int[cost.Length + 1];
-            for(int i = 2; i <= cost.Length; i++)
+            if(cost.Length == 2)
             {
-                dp[i] = Math.Min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2]);
+                return Math.Min(cost[0], cost[1]);
             }
-            return dp[cost.Length];
+            int[] dp = new int[cost.Length];
+            dp[0] = 0;
+            dp[1] = Math.Min(cost[0], cost[1]);
+            for (int i = 2; i < cost.Length; i++)
+            {
+                dp[i] = Math.Min(dp[i - 1] + cost[i], dp[i - 2] + cost[i - 1]);
+            }
+            return dp[cost.Length - 1];
         }
     }
 }

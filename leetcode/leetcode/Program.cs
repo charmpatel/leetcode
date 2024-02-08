@@ -63,9 +63,10 @@ namespace leetcode
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
             _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();
             _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
-            _202_Happy_Number isHappyNum = new _202_Happy_Number();*/
+            _202_Happy_Number isHappyNum = new _202_Happy_Number();
             _66_Plus_One plusOne = new _66_Plus_One();
-            _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();
+            _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();*/
+            _1275_Find_Winner_On_A_Tic_Tac_Toe_Game winnerOfTicTacToe = new _1275_Find_Winner_On_A_Tic_Tac_Toe_Game();
 
             Console.WriteLine("Ending Arrays");
 

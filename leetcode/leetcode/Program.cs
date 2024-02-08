@@ -49,21 +49,22 @@ namespace leetcode
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
-            //_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
-            //_1_Two_Sum twoSum = new _1_Two_Sum();
-            //_359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
-            //_1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
-            //_268_Missing_Number missingNumber = new _268_Missing_Number();
-            /*_287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
+            /*_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
+            _1_Two_Sum twoSum = new _1_Two_Sum();
+            _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
+            _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
+            _268_Missing_Number missingNumber = new _268_Missing_Number();
+            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
             _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
             _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
             _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
-            _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();*/
-            //_217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
-            _202_Happy_Number isHappyNum = new _202_Happy_Number();
+            _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();
+            _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
+            _202_Happy_Number isHappyNum = new _202_Happy_Number();*/
+            _66_Plus_One plusOne = new _66_Plus_One();
 
             Console.WriteLine("Ending Arrays");
 
@@ -108,11 +109,11 @@ namespace leetcode
             Console.WriteLine("Ending Priority Queue");
 
             Console.WriteLine("Starting Dynamic Programming");
-            _198_House_Robber houseRobber = new _198_House_Robber();
+            /*_198_House_Robber houseRobber = new _198_House_Robber();
             _213_House_Robber_2 houseRobber2 = new _213_House_Robber_2();
             _70_Climbing_Stairs climbingStairs = new _70_Climbing_Stairs();
             _746_Min_Cost_Climbing_Stairs minCostClimbingStairs = new _746_Min_Cost_Climbing_Stairs();
-            _300_Longest_Increasing_Subsequence LongestIncreasingSubsequence = new _300_Longest_Increasing_Subsequence();
+            _300_Longest_Increasing_Subsequence LongestIncreasingSubsequence = new _300_Longest_Increasing_Subsequence();*/
             Console.WriteLine("Ending Dynamic Programming");
         }
     }

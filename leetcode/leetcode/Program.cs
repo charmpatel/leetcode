@@ -94,6 +94,7 @@ namespace leetcode
             _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
             _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
             _680_Valid_Palindrome_2 isValidPalindrome2 = new _680_Valid_Palindrome_2();*/
+            _424_Longest_Repeating_Character_Replacement Longest_Repeating_Char = new _424_Longest_Repeating_Character_Replacement();
             Console.WriteLine("Ending Sliding Windows");
 
             Console.WriteLine("Starting Binary Search");

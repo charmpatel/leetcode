@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using leetcode.LeetCode_Solutions.Arrays;
 using leetcode.LeetCode_Solutions.Binary_Search;
 using leetcode.LeetCode_Solutions.Dynamic_Programming;
+using leetcode.LeetCode_Solutions.String;
 
 namespace leetcode
 {
@@ -45,8 +46,8 @@ namespace leetcode
             _104_Maximum_Depth_of_Binary_Tree maxDepthBT = new _104_Maximum_Depth_of_Binary_Tree();
             _112_Path_Sum isPathSum = new _112_Path_Sum();
             _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();
-            _124_Binary_Tree_Maximum_Path_Sum maxPathSum = new _124_Binary_Tree_Maximum_Path_Sum();*/
-            _1448_Count_Good_Nodes_In_Binary_Tree countGoodNodes = new _1448_Count_Good_Nodes_In_Binary_Tree();
+            _124_Binary_Tree_Maximum_Path_Sum maxPathSum = new _124_Binary_Tree_Maximum_Path_Sum();
+            _1448_Count_Good_Nodes_In_Binary_Tree countGoodNodes = new _1448_Count_Good_Nodes_In_Binary_Tree();*/
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
@@ -119,6 +120,10 @@ namespace leetcode
             _746_Min_Cost_Climbing_Stairs minCostClimbingStairs = new _746_Min_Cost_Climbing_Stairs();
             _300_Longest_Increasing_Subsequence LongestIncreasingSubsequence = new _300_Longest_Increasing_Subsequence();*/
             Console.WriteLine("Ending Dynamic Programming");
+
+            Console.WriteLine("Starting String");
+            _948_String_Without_AAA_Or_BBB stringWithout3A3B = new _948_String_Without_AAA_Or_BBB();
+            Console.WriteLine("Ending String");
         }
     }
 }

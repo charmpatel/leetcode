@@ -21,8 +21,6 @@ namespace leetcode.LeetCode_Solutions.String
         public _344_Reverse_String()
         {
             char[] s = new char[] {'h','e','l','l','o' };
-            //Console.WriteLine(ReverseString(s));
-            Console.Write("Reverse String= ");
             ReverseString(s);
         }
         public void ReverseString(char[] s)
@@ -37,6 +35,12 @@ namespace leetcode.LeetCode_Solutions.String
                 i++;
                 j--;
             }
+            Console.Write("Revers String = ");
+            foreach(char ch in s)
+            {
+                Console.Write(ch + " ");
+            }
+            Console.WriteLine("");
         }
     }
 }

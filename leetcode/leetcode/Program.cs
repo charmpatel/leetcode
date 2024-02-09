@@ -46,6 +46,7 @@ namespace leetcode
             _112_Path_Sum isPathSum = new _112_Path_Sum();
             _113_Path_Sum_2 pathSumNodeVal = new _113_Path_Sum_2();
             _124_Binary_Tree_Maximum_Path_Sum maxPathSum = new _124_Binary_Tree_Maximum_Path_Sum();*/
+            _1448_Count_Good_Nodes_In_Binary_Tree countGoodNodes = new _1448_Count_Good_Nodes_In_Binary_Tree();
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");

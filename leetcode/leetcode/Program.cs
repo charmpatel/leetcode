@@ -123,6 +123,7 @@ namespace leetcode
 
             Console.WriteLine("Starting String");
             _948_String_Without_AAA_Or_BBB stringWithout3A3B = new _948_String_Without_AAA_Or_BBB();
+            _1647_Minimum_Deletion_To_Make_char_unique minCharFreqUnique = new _1647_Minimum_Deletion_To_Make_char_unique();
             Console.WriteLine("Ending String");
         }
     }

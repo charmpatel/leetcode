@@ -7,6 +7,7 @@ using leetcode.LeetCode_Solutions.Utility;
 using leetcode.LeetCode_Solutions.Arrays_Hashing;
 using leetcode.LeetCode_Solutions.Sliding_Window;
 using leetcode.LeetCode_Solutions.Backtracking;
+using leetcode.LeetCode_Solutions.Stack;
 //using leetcode.LeetCode_Solutions.Heap_Priority_Queue_;
 using System;
 using System.Collections.Generic;
@@ -84,25 +85,12 @@ namespace leetcode
             _1_Two_Sum_Sorted_Array twoSumSortedArray = new _1_Two_Sum_Sorted_Array();
             _344_Reverse_String reverse_String = new _344_Reverse_String();
             _345_Reverse_Volwels_Of_A_String reverseVolwels = new _345_Reverse_Volwels_Of_A_String();*/
-            
-           
             Console.WriteLine("Ending Two Pointers");
 
             Console.WriteLine("Starting Sliding Windows");
-            /*_3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();
-            _155_Min_Stack getMinStackVal = new _155_Min_Stack();
-            getMinStackVal.Push(-2);
-            getMinStackVal.Push(0);
-            getMinStackVal.Push(-3);
-            Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -3
-            getMinStackVal.pop();
-            getMinStackVal.top();    // return 0
-            Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -2
-
-            _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
-            _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
-            _680_Valid_Palindrome_2 isValidPalindrome2 = new _680_Valid_Palindrome_2();*/
-            _424_Longest_Repeating_Character_Replacement Longest_Repeating_Char = new _424_Longest_Repeating_Character_Replacement();
+            /*_3_Longest_Substring_Without_Repeating_characters longestSubstringUniquechar = new _3_Longest_Substring_Without_Repeating_characters();           
+            _680_Valid_Palindrome_2 isValidPalindrome2 = new _680_Valid_Palindrome_2();
+            _424_Longest_Repeating_Character_Replacement Longest_Repeating_Char = new _424_Longest_Repeating_Character_Replacement();*/
             Console.WriteLine("Ending Sliding Windows");
 
             Console.WriteLine("Starting Binary Search");
@@ -132,6 +120,21 @@ namespace leetcode
            /* _948_String_Without_AAA_Or_BBB stringWithout3A3B = new _948_String_Without_AAA_Or_BBB();
             _1647_Minimum_Deletion_To_Make_char_unique minCharFreqUnique = new _1647_Minimum_Deletion_To_Make_char_unique();*/
             Console.WriteLine("Ending String");
+
+            Console.WriteLine("Starting Stack");
+            /* _155_Min_Stack getMinStackVal = new _155_Min_Stack();
+             getMinStackVal.Push(-2);
+             getMinStackVal.Push(0);
+             getMinStackVal.Push(-3);
+             Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -3
+             getMinStackVal.pop();
+             getMinStackVal.top();    // return 0
+             Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -2
+
+             _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
+             _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();*/
+            _739_Daily_Temperatures daily_Temperatures = new _739_Daily_Temperatures();
+            Console.WriteLine("Ending Stack");
 
             Console.WriteLine("Starting Backtracking");
             _22_Generate_Parentheses generate_Parentheses = new _22_Generate_Parentheses();

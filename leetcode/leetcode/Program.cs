@@ -69,6 +69,7 @@ namespace leetcode
             _66_Plus_One plusOne = new _66_Plus_One();
             _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();*/
             _1275_Find_Winner_On_A_Tic_Tac_Toe_Game winnerOfTicTacToe = new _1275_Find_Winner_On_A_Tic_Tac_Toe_Game();
+            _128_Longest_Consecutive_Sequence _Longest_Consecutive_Sequence = new _128_Longest_Consecutive_Sequence();
 
             Console.WriteLine("Ending Arrays");
 
@@ -79,9 +80,10 @@ namespace leetcode
             _11_Container_With_Most_Water maxAmountWater = new _11_Container_With_Most_Water();
             _234_Palindrome_Linked_List palindrome_Linked_List = new _234_Palindrome_Linked_List();
             _148_Sort_List sortList = new _148_Sort_List();
-            _1_Two_Sum_Sorted_Array twoSumSortedArray = new _1_Two_Sum_Sorted_Array();*/
+            _1_Two_Sum_Sorted_Array twoSumSortedArray = new _1_Two_Sum_Sorted_Array();
             _344_Reverse_String reverse_String = new _344_Reverse_String();
-            _345_Reverse_Volwels_Of_A_String reverseVolwels = new _345_Reverse_Volwels_Of_A_String();
+            _345_Reverse_Volwels_Of_A_String reverseVolwels = new _345_Reverse_Volwels_Of_A_String();*/
+            
            
             Console.WriteLine("Ending Two Pointers");
 

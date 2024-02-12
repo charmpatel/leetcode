@@ -81,6 +81,7 @@ namespace leetcode
             _148_Sort_List sortList = new _148_Sort_List();
             _1_Two_Sum_Sorted_Array twoSumSortedArray = new _1_Two_Sum_Sorted_Array();*/
             _344_Reverse_String reverse_String = new _344_Reverse_String();
+            _345_Reverse_Volwels_Of_A_String reverseVolwels = new _345_Reverse_Volwels_Of_A_String();
            
             Console.WriteLine("Ending Two Pointers");
 
@@ -120,12 +121,13 @@ namespace leetcode
             _213_House_Robber_2 houseRobber2 = new _213_House_Robber_2();
             _70_Climbing_Stairs climbingStairs = new _70_Climbing_Stairs();
             _746_Min_Cost_Climbing_Stairs minCostClimbingStairs = new _746_Min_Cost_Climbing_Stairs();
-            _300_Longest_Increasing_Subsequence LongestIncreasingSubsequence = new _300_Longest_Increasing_Subsequence();*/
+            _300_Longest_Increasing_Subsequence LongestIncreasingSubsequence = new _300_Longest_Increasing_Subsequence();
+            _322_Coin_Change coinChange = new _322_Coin_Change();*/
             Console.WriteLine("Ending Dynamic Programming");
 
             Console.WriteLine("Starting String");
-            _948_String_Without_AAA_Or_BBB stringWithout3A3B = new _948_String_Without_AAA_Or_BBB();
-            _1647_Minimum_Deletion_To_Make_char_unique minCharFreqUnique = new _1647_Minimum_Deletion_To_Make_char_unique();
+           /* _948_String_Without_AAA_Or_BBB stringWithout3A3B = new _948_String_Without_AAA_Or_BBB();
+            _1647_Minimum_Deletion_To_Make_char_unique minCharFreqUnique = new _1647_Minimum_Deletion_To_Make_char_unique();*/
             Console.WriteLine("Ending String");
         }
     }

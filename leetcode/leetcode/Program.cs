@@ -6,6 +6,7 @@ using leetcode.LeetCode_Solutions.Two_Pointers;
 using leetcode.LeetCode_Solutions.Utility;
 using leetcode.LeetCode_Solutions.Arrays_Hashing;
 using leetcode.LeetCode_Solutions.Sliding_Window;
+using leetcode.LeetCode_Solutions.Backtracking;
 //using leetcode.LeetCode_Solutions.Heap_Priority_Queue_;
 using System;
 using System.Collections.Generic;
@@ -67,9 +68,9 @@ namespace leetcode
             _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
             _202_Happy_Number isHappyNum = new _202_Happy_Number();
             _66_Plus_One plusOne = new _66_Plus_One();
-            _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();*/
+            _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();
             _1275_Find_Winner_On_A_Tic_Tac_Toe_Game winnerOfTicTacToe = new _1275_Find_Winner_On_A_Tic_Tac_Toe_Game();
-            _128_Longest_Consecutive_Sequence _Longest_Consecutive_Sequence = new _128_Longest_Consecutive_Sequence();
+            _128_Longest_Consecutive_Sequence _Longest_Consecutive_Sequence = new _128_Longest_Consecutive_Sequence();*/
 
             Console.WriteLine("Ending Arrays");
 
@@ -131,6 +132,10 @@ namespace leetcode
            /* _948_String_Without_AAA_Or_BBB stringWithout3A3B = new _948_String_Without_AAA_Or_BBB();
             _1647_Minimum_Deletion_To_Make_char_unique minCharFreqUnique = new _1647_Minimum_Deletion_To_Make_char_unique();*/
             Console.WriteLine("Ending String");
+
+            Console.WriteLine("Starting Backtracking");
+            _22_Generate_Parentheses generate_Parentheses = new _22_Generate_Parentheses();
+            Console.WriteLine("Ending Backtracking");
         }
     }
 }

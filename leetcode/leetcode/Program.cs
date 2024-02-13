@@ -15,6 +15,7 @@ using leetcode.LeetCode_Solutions.Arrays;
 using leetcode.LeetCode_Solutions.Binary_Search;
 using leetcode.LeetCode_Solutions.Dynamic_Programming;
 using leetcode.LeetCode_Solutions.String;
+using leetcode.LeetCode_Solutions.Bit_Manipulation;
 
 namespace leetcode
 {
@@ -139,6 +140,10 @@ namespace leetcode
             Console.WriteLine("Starting Backtracking");
             _22_Generate_Parentheses generate_Parentheses = new _22_Generate_Parentheses();
             Console.WriteLine("Ending Backtracking");
+
+            Console.WriteLine("Starting Bit-Manipulation");
+            _136_Single_Number singleNum = new _136_Single_Number();
+            Console.WriteLine("Ending Bit-Manipulation");
         }
     }
 }

@@ -144,6 +144,7 @@ namespace leetcode
             Console.WriteLine("Starting Bit-Manipulation");
             _136_Single_Number singleNum = new _136_Single_Number();
             _371_Sum_Of_Two_Integers sum_Of_Two_Integers = new _371_Sum_Of_Two_Integers();
+            _7_Reverse_Integers reverse_Integers = new _7_Reverse_Integers();
             Console.WriteLine("Ending Bit-Manipulation");
         }
     }

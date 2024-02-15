@@ -1,5 +1,5 @@
 ﻿/* 1 - Two Sum.
-   Topic - Array, Hash Table.
+Topic - Array, Hash Table.
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
@@ -43,6 +43,14 @@ namespace leetcode.LeetCode_Solutions.Arrays
             check if new int in dict then return boths indexes.
             if not in Dictionary then add curr int in Dictionary.
             if you don't found num return [0].
+
+            Create a dictionary to store the element and its index.
+            Loop through all numbers... 
+                check if there exists a key where key = target-element in dictionary, 
+                    in that case, we have found two elemnts (the element itself and the one in dict where key = target-element
+                    return dict[target-element] & i (which is index of current element)
+                check if element is not in dict, add it 
+            
 */
 
          public int[] twoSum(int[] nums, int target)
@@ -60,7 +68,7 @@ namespace leetcode.LeetCode_Solutions.Arrays
                     dict[nums[i]] = i;
                 }
             }
-            return new int[0];
+           return new int[] { 0 };
         }
 
     }

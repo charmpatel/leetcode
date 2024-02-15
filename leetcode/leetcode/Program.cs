@@ -4,18 +4,18 @@ using leetcode.LeetCode_Solutions.Fast_SlowPointers;
 using leetcode.LeetCode_Solutions.Tree_Dfs;
 using leetcode.LeetCode_Solutions.Two_Pointers;
 using leetcode.LeetCode_Solutions.Utility;
-using leetcode.LeetCode_Solutions.Arrays_Hashing;
+using leetcode.LeetCode_Solutions.Arrays;
 using leetcode.LeetCode_Solutions.Sliding_Window;
 using leetcode.LeetCode_Solutions.Backtracking;
 using leetcode.LeetCode_Solutions.Stack;
 //using leetcode.LeetCode_Solutions.Heap_Priority_Queue_;
 using System;
 using System.Collections.Generic;
-using leetcode.LeetCode_Solutions.Arrays;
 using leetcode.LeetCode_Solutions.Binary_Search;
 using leetcode.LeetCode_Solutions.Dynamic_Programming;
 using leetcode.LeetCode_Solutions.String;
 using leetcode.LeetCode_Solutions.Bit_Manipulation;
+using leetcode.LeetCode_Solutions.Arrays_Hashing;
 
 namespace leetcode
 {
@@ -24,7 +24,7 @@ namespace leetcode
         static void Main(string[] args)
         {
             Console.WriteLine("Starting Merge Intervals Pattern");
-
+            
            /* _56_Merge_Intervals mergeIntervals = new _56_Merge_Intervals();
             _253_Meeting_Rooms_2 meetingRooms2 = new _253_Meeting_Rooms_2();
             _252_Meeting_Rooms canAttendMeeting = new _252_Meeting_Rooms();
@@ -55,26 +55,29 @@ namespace leetcode
 
             Console.WriteLine("Starting Arrays");
             /*_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
-            _1_Two_Sum twoSum = new _1_Two_Sum();
-            _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
-            _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
-            _268_Missing_Number missingNumber = new _268_Missing_Number();
-            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
             _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
-            _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
-            _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
-            _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
-            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
             _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();
-            _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();
             _202_Happy_Number isHappyNum = new _202_Happy_Number();
             _66_Plus_One plusOne = new _66_Plus_One();
             _769_Max_Chunks_To_Make_Sorted maxChunks = new _769_Max_Chunks_To_Make_Sorted();
             _1275_Find_Winner_On_A_Tic_Tac_Toe_Game winnerOfTicTacToe = new _1275_Find_Winner_On_A_Tic_Tac_Toe_Game();
-            _128_Longest_Consecutive_Sequence _Longest_Consecutive_Sequence = new _128_Longest_Consecutive_Sequence();*/
-
+            */
             Console.WriteLine("Ending Arrays");
+
+            Console.WriteLine("Starting HashTable");
+            /*_1_Two_Sum twoSum = new _1_Two_Sum();
+            _359_Logger_Rate_Limiter isMessagePrint = new _359_Logger_Rate_Limiter();
+            _1763_Longest_Nice_Substring longestSubstring = new _1763_Longest_Nice_Substring();
+            _268_Missing_Number missingNumber = new _268_Missing_Number();
+            _287_Find_the_Duplicate_Number findDuplicateNumber = new _287_Find_the_Duplicate_Number();
+            _49_Group_Anagram grpAnagram = new _49_Group_Anagram();
+            _242_Valid_Anagram validAnagram = new _242_Valid_Anagram();
+            _128_Longest_Consecutive_Sequence _Longest_Consecutive_Sequence = new _128_Longest_Consecutive_Sequence();
+            _347_Top_K_Frequent_Elements findKthElements = new _347_Top_K_Frequent_Elements();
+            _266_Palindrome_Permutation permutePalindrome = new _266_Palindrome_Permutation();
+            _217_Contains_Duplicate containsDuplicate = new _217_Contains_Duplicate();*/
+            Console.WriteLine("Ending HashTable");
 
             Console.WriteLine("Starting Two_Pointers");
             /*_15_3_Sum ThreeSum = new _15_3_Sum();
@@ -133,18 +136,18 @@ namespace leetcode
              Console.WriteLine("Get Minimum Val of Stack {0} ", getMinStackVal.GetMin()); // return -2
 
              _150_Evaluate_Reverse_Polish_Notation reversearithmeticExpression = new _150_Evaluate_Reverse_Polish_Notation();
-             _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();*/
-            _739_Daily_Temperatures daily_Temperatures = new _739_Daily_Temperatures();
+             _20_Valid_Parentheses validParenth = new _20_Valid_Parentheses();
+            _739_Daily_Temperatures daily_Temperatures = new _739_Daily_Temperatures();*/
             Console.WriteLine("Ending Stack");
 
             Console.WriteLine("Starting Backtracking");
-            _22_Generate_Parentheses generate_Parentheses = new _22_Generate_Parentheses();
+            //_22_Generate_Parentheses generate_Parentheses = new _22_Generate_Parentheses();
             Console.WriteLine("Ending Backtracking");
 
             Console.WriteLine("Starting Bit-Manipulation");
-            _136_Single_Number singleNum = new _136_Single_Number();
+            /*_136_Single_Number singleNum = new _136_Single_Number();
             _371_Sum_Of_Two_Integers sum_Of_Two_Integers = new _371_Sum_Of_Two_Integers();
-            _7_Reverse_Integers reverse_Integers = new _7_Reverse_Integers();
+            _7_Reverse_Integers reverse_Integers = new _7_Reverse_Integers();*/
             Console.WriteLine("Ending Bit-Manipulation");
         }
     }

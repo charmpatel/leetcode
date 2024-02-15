@@ -1,4 +1,15 @@
-﻿using System;
+﻿/* 253 - Meeting Rooms 2.
+Topic - Array, Sorting, Heap(PriorityQueue), Greedy, Two Pointers, Prefix Sum.
+Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
+Example 1:
+Input: intervals = [[0, 30],[5,10],[15,20]]
+Output: 2
+Example 2:
+Input: intervals = [[7, 10],[2,4]]
+Output: 1
+*/ 
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 

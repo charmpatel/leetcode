@@ -54,9 +54,9 @@ namespace leetcode.LeetCode_Solutions.Arrays_Hashing
                 }
                 digits[i] = 0;
             }
-            int[] res = new int[digits.Length + 1];
-            res[0] = 1;
-            return res;
+            int[] result = new int[digits.Length + 1];
+            result[0] = 1;
+            return result;
         }
     }
 }

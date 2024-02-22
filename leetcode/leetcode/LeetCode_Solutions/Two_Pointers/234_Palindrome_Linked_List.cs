@@ -1,4 +1,15 @@
-﻿using leetcode.LeetCode_Solutions.Utility;
+﻿/*234- Palindrome Linked List
+ Topic - Two Pointers, Linked List, Stack, Recursion.
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+Example 1:
+Input: head = [1,2,2,1]
+Output: true
+Example 2:
+Input: head = [1,2]
+Output: false
+*/
+
+using leetcode.LeetCode_Solutions.Utility;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,13 +29,7 @@ namespace leetcode.LeetCode_Solutions.Two_Pointers
 
         }
         
-        /*Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
-        Example 1:
-        Input: head = [1,2,2,1]
-                Output: true
-        Example 2:
-        Input: head = [1,2]
-        Output: false*/
+        
 
         public bool isPalindrome(ListNode head)
         {

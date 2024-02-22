@@ -1,5 +1,5 @@
 ﻿/* 143 - Reorder List.
- * Topic - 
+ * Topic - Linked List, Two Pointers, Stack, Recursion.
 You are given the head of a singly linked-list.The list can be represented as:
 L0 → L1 → … → Ln - 1 → Ln
 Reorder the list to be on the following form:
@@ -12,7 +12,6 @@ Example 2:
 Input: head = [1,2,3,4,5]
 Output: [1,5,2,4,3]
 */
-
 
 using leetcode.LeetCode_Solutions.Utility;
 using System;

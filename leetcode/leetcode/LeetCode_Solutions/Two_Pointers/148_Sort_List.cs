@@ -42,18 +42,16 @@ namespace leetcode.LeetCode_Solutions.Two_Pointers
         }
         public ListNode sortList(ListNode head)
         {
-            if (head == null)
-                return null;
             var list = new List<int>();
-            var curr = new ListNode();
-            var p = curr;
-            while (head != null)
+            while(head != null)
             {
                 list.Add(head.val);
                 head = head.next;
-            }  
+            }
             list.Sort();
-            for (int i = 0; i < list.Count; i++)
+            var curr = new ListNode();
+            var p = curr;
+            for(int i = 0; i < list.Count; i++)
             {
                 p.next = new ListNode(list[i]);
                 p = p.next;

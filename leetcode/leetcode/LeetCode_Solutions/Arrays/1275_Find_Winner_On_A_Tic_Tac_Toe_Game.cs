@@ -66,6 +66,11 @@ namespace leetcode.LeetCode_Solutions.Arrays_Hashing
             Console.WriteLine("Winner Of Tic Tac Toe = {0}", winnerOfTicTacToe(move1));
             Console.WriteLine("Winner Of Tic Tac Toe = {0}", winnerOfTicTacToe(move2));
         }
+        /*first we have to initialise rows cols diag and antidiag.
+         * loop through in moves and fill all the rows,cols,diad and antidiag fields
+         * check which one ==3 then return player A winner or B
+         * if moves == 9 means game is Draw otherwise Pending.
+         */ 
         public string winnerOfTicTacToe(int[][] moves)
         {
             int[] rows = new int[3];

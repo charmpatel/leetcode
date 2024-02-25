@@ -21,9 +21,7 @@ namespace leetcode.LeetCode_Solutions.Binary_Search
     {
         public _704_Binary_Search()
         {
-            int[] nums = new int[] { -1, 0, 3, 5, 9, 12 };
-            int target = 0;
-            Console.WriteLine(Search(nums, target));
+            
         }
         public int Search(int[] nums, int target)
         {

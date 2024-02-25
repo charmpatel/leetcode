@@ -25,15 +25,7 @@ namespace leetcode.LeetCode_Solutions.Arrays
     public class _1_Two_Sum
     {
         public _1_Two_Sum()
-        {
-            int target = 19;
-            int[] nums = new int[] { 11,12,14,15,16,18,100,2, 7 };
-            int[] res = twoSum(nums, target);
-            for(int i = 0; i<res.Length; i++)
-            {
-                Console.WriteLine("Two Sum {0} ", res[i]);
-            }
-            
+        {            
         }
 
        /* Seudo Code:

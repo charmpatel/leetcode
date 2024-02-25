@@ -23,6 +23,9 @@ namespace leetcode
     {
         static void Main(string[] args)
         {
+           
+           
+
             Console.WriteLine("Starting Merge Intervals Pattern");
             
            /* _56_Merge_Intervals mergeIntervals = new _56_Merge_Intervals();
@@ -54,8 +57,8 @@ namespace leetcode
             Console.WriteLine("Ending Tree Dfs");
 
             Console.WriteLine("Starting Arrays");
-            /*_54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
-            _348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
+            _54_Spiral_Matrix traversMatrix = new _54_Spiral_Matrix();
+            /*_348_Design_Tic_Tac_Toe tic_Tac_Toe = new _348_Design_Tic_Tac_Toe(3);
             _1822_Sign_Of_the_Product_Of_An_Array signOfArray = new _1822_Sign_Of_the_Product_Of_An_Array();
             _1304_Find_N_Unique_Integers_Sum_UpTo_Zero uniqueIntSumZero = new _1304_Find_N_Unique_Integers_Sum_UpTo_Zero();
             _202_Happy_Number isHappyNum = new _202_Happy_Number();
@@ -80,6 +83,7 @@ namespace leetcode
             Console.WriteLine("Ending HashTable");
 
             Console.WriteLine("Starting Two_Pointers");
+            _148_Sort_List sortList = new _148_Sort_List();
             /*_15_3_Sum ThreeSum = new _15_3_Sum();
             _125_Valid_Palindrome isPalindrome = new _125_Valid_Palindrome();
             _283_Move_Zeroes moveZeroesAtEnd = new _283_Move_Zeroes();
@@ -149,6 +153,10 @@ namespace leetcode
             _371_Sum_Of_Two_Integers sum_Of_Two_Integers = new _371_Sum_Of_Two_Integers();
             _7_Reverse_Integers reverse_Integers = new _7_Reverse_Integers();*/
             Console.WriteLine("Ending Bit-Manipulation");
+
+
+
         }
+
     }
 }
